@@ -29,8 +29,10 @@ function App() {
   return (
     <>
   <Navbar  mode={mode} toggleMode={toggleModeHandler} showAlert={showAlert} />
+  
   <Alert  alert={alert}/>
   <div className="container">
+
   <TextForm showAlert={showAlert} heading="Convert Your String Here"  mode={mode} />
   </div>
   </>
